@@ -13,16 +13,55 @@ body {
   margin: 0;
 }
 
-.columns {
+header {
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  background-color: #d05c2e;
+
+  color: #fff;
 }
-.col {
+
+header h1 {
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  float: right;
+  width: 100%;
+}
+
+li {
   width: 50%;
   background-color: #d05c2e;
   border-color: #a63f38;
   border-style: solid;
   border-width: 1px;
   color: #fff;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+  width: 40px
+}
+
+.box-1 {
+  float: left;
+}
+
+.box-2 {
+  float: right;
 }
