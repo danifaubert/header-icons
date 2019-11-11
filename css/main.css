@@ -23,6 +23,10 @@ header {
   color: #fff;
 }
 
+header:hover {
+  background-color: #a63f38;
+}
+
 header h1 {
   display: block;
   text-align: center;
