@@ -21,7 +21,7 @@ header {
   color: #fff;
 }
 
-header:hover {
+a:hover {
   background-color: #a63f38;
 }
 
