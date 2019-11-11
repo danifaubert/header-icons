@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-family: Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.col {
+  width: 50%;
+  background-color: #d05c2e;
+  border-color: #a63f38;
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+}
